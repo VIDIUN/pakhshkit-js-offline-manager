@@ -1,6 +1,6 @@
 import '../../src/index.js'
-import {loadPlayer} from 'playkit-js'
-import * as TestUtils from 'playkit-js/test/src/utils/test-utils'
+import {loadPlayer} from 'pakhshkit-js'
+import * as TestUtils from 'pakhshkit-js/test/src/utils/test-utils'
 
 const targetId = 'player-placeholder_offline-manager.spec';
 

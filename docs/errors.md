@@ -1,14 +1,14 @@
 ## Error Handling
 
-The Download Manager fires error events. The errors are in the same structure as the Kaltura Player errors.
+The Download Manager fires error events. The errors are in the same structure as the Vidiun Player errors.
 
 Offline manager errors category number is 9.
 
-> Read more about the Kaltura player errors [here](https://github.com/kaltura/kaltura-player-js/blob/master/docs/errors.md).
+> Read more about the Vidiun player errors [here](https://github.com/vidiun/vidiun-player-js/blob/master/docs/errors.md).
 
 Here's an example of how to listen to an error event:
 ```javascript
-let offlineManager = new KalturaPlayer.OfflineManager(configuration)
+let offlineManager = new VidiunPlayer.OfflineManager(configuration)
 offlineManager.addEventListener("error", event => {
 	const error = e.payload;
 	console.log('The error severity is: ' + error.severity);

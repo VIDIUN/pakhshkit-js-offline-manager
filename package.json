@@ -1,7 +1,7 @@
 {
-  "name": "playkit-js-offline-manager",
+  "name": "pakhshkit-js-offline-manager",
   "version": "1.2.0",
-  "main": "dist/playkit-offline-manager.js",
+  "main": "dist/pakhshkit-offline-manager.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -53,10 +53,10 @@
     "karma-webpack": "^2.0.2",
     "mocha": "^3.2.0",
     "mocha-cli": "^1.0.1",
-    "playkit-js": "https://github.com/kaltura/playkit-js.git#v0.32.4",
-    "playkit-js-providers": "https://github.com/kaltura/playkit-js-providers.git#v2.3.0",
+    "pakhshkit-js": "https://github.com/vidiun/pakhshkit-js.git#v0.32.4",
+    "pakhshkit-js-providers": "https://github.com/vidiun/pakhshkit-js-providers.git#v2.3.0",
     "pre-push": "^0.1.1",
-    "shaka-player": "https://github.com/kaltura/shaka-player.git#v2.3.3-k-4",
+    "shaka-player": "https://github.com/vidiun/shaka-player.git#v2.3.3-k-4",
     "sinon": "^2.0.0",
     "sinon-chai": "^2.8.0",
     "standard-version": "^4.0.0",
@@ -66,20 +66,20 @@
     "webpack-dev-server": "latest"
   },
   "peerDependencies": {
-    "playkit-js": "https://github.com/kaltura/playkit-js.git#v0.32.4",
-    "playkit-js-providers": "https://github.com/kaltura/playkit-js-providers.git#v2.7.1",
-    "shaka-player": "https://github.com/kaltura/shaka-player.git#v2.3.3-k-4"
+    "pakhshkit-js": "https://github.com/vidiun/pakhshkit-js.git#v0.32.4",
+    "pakhshkit-js-providers": "https://github.com/vidiun/pakhshkit-js-providers.git#v2.7.1",
+    "shaka-player": "https://github.com/vidiun/shaka-player.git#v2.3.3-k-4"
   },
   "keywords": [],
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaltura/playkit-js-offline-manager.git"
+    "url": "git+https://github.com/vidiun/pakhshkit-js-offline-manager.git"
   },
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js-offline-manager/issues"
+    "url": "https://github.com/vidiun/pakhshkit-js-offline-manager/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js-offline-manager#readme",
+  "homepage": "https://github.com/vidiun/pakhshkit-js-offline-manager#readme",
   "dependencies": {
     "idb": "^2.0.4",
     "js-logger": "^1.4.1"

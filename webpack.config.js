@@ -19,12 +19,12 @@ if (PROD) {
 module.exports = {
   context: __dirname + "/src",
   entry: {
-    "playkit-offline-manager": "index.js"
+    "pakhshkit-offline-manager": "index.js"
   },
   output: {
     path: __dirname + "/dist",
     filename: '[name].js',
-    library: ["KalturaPlayer", "OfflineManager"],
+    library: ["VidiunPlayer", "OfflineManager"],
     libraryExport: "default",
     libraryTarget: "umd",
     devtoolModuleFilenameTemplate: "./offline-manager/[resource-path]"
@@ -67,23 +67,23 @@ module.exports = {
     ]
   },
   externals: {
-    "playkit-js": {
-      commonjs: "playkit-js",
-      commonjs2: "playkit-js",
-      amd: "playkit-js",
-      root: ["KalturaPlayer", "core"]
+    "pakhshkit-js": {
+      commonjs: "pakhshkit-js",
+      commonjs2: "pakhshkit-js",
+      amd: "pakhshkit-js",
+      root: ["VidiunPlayer", "core"]
     },
     "shaka-player": {
       commonjs: "shaka-player",
       commonjs2: "shaka-player",
       amd: "shaka-player",
-      root: ["KalturaPlayer", "shaka"]
+      root: ["VidiunPlayer", "shaka"]
     },
-    "playkit-js-providers": {
-      commonjs: "playkit-js-providers",
-      commonjs2: "playkit-js-providers",
-      amd: "playkit-js-providers",
-      root: ["KalturaPlayer", "providers"]
+    "pakhshkit-js-providers": {
+      commonjs: "pakhshkit-js-providers",
+      commonjs2: "pakhshkit-js-providers",
+      amd: "pakhshkit-js-providers",
+      root: ["VidiunPlayer", "providers"]
     }
   }
 };

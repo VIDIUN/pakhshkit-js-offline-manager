@@ -1,7 +1,7 @@
 // @flow
 import idb from 'idb'
 import getLogger from "./utils/logger";
-import {Error} from 'playkit-js'
+import {Error} from 'pakhshkit-js'
 
 const KEY_PATH: string = 'entryId';
 const ENTRIES_MAP_STORE_NAME: string = 'entriesMap';
