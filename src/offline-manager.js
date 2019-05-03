@@ -1,7 +1,7 @@
 // @flow
 import {ShakaOfflineProvider, PROGRESS_EVENT} from './shaka-offline-provider';
-import {Provider} from 'playkit-js-providers';
-import {Utils, FakeEventTarget, EventManager, Error, EventType as EVENTS, FakeEvent} from 'playkit-js';
+import {Provider} from 'pakhshkit-js-providers';
+import {Utils, FakeEventTarget, EventManager, Error, EventType as EVENTS, FakeEvent} from 'pakhshkit-js';
 import getLogger, {setLogLevel, LogLevel} from './utils/logger'
 import DBManager from "./db-manager";
 

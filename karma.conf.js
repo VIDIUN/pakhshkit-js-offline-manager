@@ -8,7 +8,7 @@ webpackConfig.devtool = 'inline-source-map';
 //once we move to seperate provider packages on NPM we can run tests with matrix and require both OVP and OTT
 const path = require('path');
 webpackConfig.resolve.alias = {
-  'playkit-js-providers': path.resolve('./node_modules/playkit-js-providers/dist/playkit-ovp-provider')
+  'pakhshkit-js-providers': path.resolve('./node_modules/pakhshkit-js-providers/dist/pakhshkit-ovp-provider')
 };
 
 const isWindows = /^win/.test(process.platform);
