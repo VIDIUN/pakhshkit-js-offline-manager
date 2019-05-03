@@ -1,8 +1,8 @@
-# Playkit JS Offline Manager
+# Pakhshkit JS Offline Manager
 
-PlayKit JS Offline Manager is a javascript library that gives the ability to store and manage content locally. The offline manager provides an API to control the entire download process (download, resume, pause, cancel) and to delete stored content. The offline manager supports storing both clear and protected content.
+PakhshKit JS Offline Manager is a javascript library that gives the ability to store and manage content locally. The offline manager provides an API to control the entire download process (download, resume, pause, cancel) and to delete stored content. The offline manager supports storing both clear and protected content.
 
-PlayKit JS  Offline Manager is written in [ECMAScript6], analyzed statically using [Flow], and transpiled in ECMAScript5 using [Babel].
+PakhshKit JS  Offline Manager is written in [ECMAScript6], analyzed statically using [Flow], and transpiled in ECMAScript5 using [Babel].
 
 [Flow]: https://flow.org/
 [ECMAScript6]: https://github.com/ericdouglas/ES6-Learning#articles--tutorials
@@ -31,8 +31,8 @@ First, clone and run [yarn] to install dependencies:
 [yarn]: https://yarnpkg.com/lang/en/
 
 ```
-git clone https://github.com/kaltura/playkit-js-offline-manager.git
-cd playkit-js-offline-manager
+git clone https://github.com/vidiun/pakhshkit-js-offline-manager.git
+cd pakhshkit-js-offline-manager
 yarn install
 ```
 
@@ -92,7 +92,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kaltura/playkit-js/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/vidiun/pakhshkit-js/tags).
 
 ## License
 

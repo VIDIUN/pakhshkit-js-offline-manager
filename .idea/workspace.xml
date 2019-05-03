@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dc0f42d2-168a-411d-9fb6-1bc7a4e1404e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/dist/playkit-offline-manager.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/playkit-offline-manager.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/pakhshkit-offline-manager.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/pakhshkit-offline-manager.js.map" afterPath="" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/JSONStream" afterPath="" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/_mocha" afterPath="" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/acorn" afterPath="" />
@@ -11408,7 +11408,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="playkit-js-offline-manager" />
+    <favorites_list name="pakhshkit-js-offline-manager" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -11504,8 +11504,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playkit-js-offline-manager.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/src/playkit-js-offline-manager.spec.js">
+      <file leaf-file-name="pakhshkit-js-offline-manager.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/pakhshkit-js-offline-manager.spec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
@@ -11542,7 +11542,7 @@
       <find>FakeEventTarget</find>
       <find>exclude</find>
       <find>set download progress</find>
-      <find>playkit-js</find>
+      <find>pakhshkit-js</find>
       <find>_initStorage</find>
       <find>delete</find>
       <find>error.payload</find>
@@ -11584,7 +11584,7 @@
         <option value="$PROJECT_DIR$/src/testpage/lib.js" />
         <option value="$PROJECT_DIR$/webpack.karma.config.js" />
         <option value="$PROJECT_DIR$/karma.conf.js" />
-        <option value="$PROJECT_DIR$/test/src/playkit-js-offline-manager.spec.js" />
+        <option value="$PROJECT_DIR$/test/src/pakhshkit-js-offline-manager.spec.js" />
         <option value="$PROJECT_DIR$/test/src/dbManager.spec.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/offline-manager.js" />
@@ -11631,8 +11631,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="playkit-js-offline-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="playkit-js-offline-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="pakhshkit-js-offline-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pakhshkit-js-offline-manager" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -11825,7 +11825,7 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../kaltura-player-js/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/../vidiun-player-js/node_modules/karma/config.tpl.js" />
       </list>
     </option>
   </component>
@@ -11877,7 +11877,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/playkit-offline-manager.js" />
+    <entry file="file://$PROJECT_DIR$/dist/pakhshkit-offline-manager.js" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -11977,7 +11977,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/playkit-offline-manager.js" />
+    <entry file="file://$PROJECT_DIR$/dist/pakhshkit-offline-manager.js" />
     <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/dist/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/idb/lib/idb.js">
@@ -12026,7 +12026,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testpage/kaltura-tv-player.js">
+    <entry file="file://$PROJECT_DIR$/src/testpage/vidiun-tv-player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -12132,7 +12132,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/playkit-js-offline-manager.spec.js">
+    <entry file="file://$PROJECT_DIR$/test/src/pakhshkit-js-offline-manager.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />

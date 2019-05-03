@@ -1,7 +1,7 @@
 {
   "name": "@playkit-js/playkit-js-offline-manager",
   "version": "1.2.0",
-  "main": "dist/playkit-offline-manager.js",
+  "main": "dist/pakhshkit-offline-manager.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -57,7 +57,7 @@
     "playkit-js": "https://github.com/kaltura/playkit-js.git#v0.35.0",
     "playkit-js-providers": "https://github.com/kaltura/playkit-js-providers.git#v2.7.1",
     "pre-push": "^0.1.1",
-    "shaka-player": "https://github.com/kaltura/shaka-player.git#v2.3.3-k-4",
+    "shaka-player": "https://github.com/vidiun/shaka-player.git#v2.3.3-k-4",
     "sinon": "^2.0.0",
     "sinon-chai": "^2.8.0",
     "standard-version": "^4.0.0",
@@ -83,10 +83,10 @@
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaltura/playkit-js-offline-manager.git"
+    "url": "git+https://github.com/vidiun/pakhshkit-js-offline-manager.git"
   },
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js-offline-manager/issues"
+    "url": "https://github.com/vidiun/pakhshkit-js-offline-manager/issues"
   },
   "homepage": "https://github.com/kaltura/playkit-js-offline-manager#readme"
 }

@@ -1,7 +1,7 @@
 //flow
 import shaka from 'shaka-player'
 import DBManager from './db-manager';
-import {FakeEventTarget, FakeEvent, Error, EventType as EVENTS} from 'playkit-js'
+import {FakeEventTarget, FakeEvent, Error, EventType as EVENTS} from 'pakhshkit-js'
 import getLogger from './utils/logger'
 
 const downloadStates = {

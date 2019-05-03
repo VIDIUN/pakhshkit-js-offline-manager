@@ -7,13 +7,13 @@ Media is currently saved in the indexedDB.
 
 ## Creating an Offline Manager
 
-To use the Offline Manager features, you'll need to create an Offline Manager. The Offline Manager currently depends on the Kaltura Player provider, so you'll need to include the Kaltura Player library as well.
+To use the Offline Manager features, you'll need to create an Offline Manager. The Offline Manager currently depends on the Vidiun Player provider, so you'll need to include the Vidiun Player library as well.
 
 Here is a code snippet used for creating an instance of the Offline Manager:
 
 ```javascript
-<script src="path/to/player/file/kaltura-tv-player.js"></script>
-<script src="path/to/offline-manager/file/playkit-offline-manager.js"></script>
+<script src="path/to/player/file/vidiun-tv-player.js"></script>
+<script src="path/to/offline-manager/file/pakhshkit-offline-manager.js"></script>
 <script>
 const configuration = {
   provider: {
@@ -28,11 +28,11 @@ const configuration = {
       ...
   }
 };
-let offlineManager = new KalturaPlayer.OfflineManager(configuration)
+let offlineManager = new VidiunPlayer.OfflineManager(configuration)
 </script>
 ```
 
-You can read more about [configuration](https://github.com/kaltura/kaltura-player-js/blob/master/docs/configuration.md) in the Kaltura Player Configuration [document](https://github.com/kaltura/kaltura-player-js/blob/master/docs/configuration.md).
+You can read more about [configuration](https://github.com/vidiun/vidiun-player-js/blob/master/docs/configuration.md) in the Vidiun Player Configuration [document](https://github.com/vidiun/vidiun-player-js/blob/master/docs/configuration.md).
 
 You can now use the Offline Manager [API](./api.md) to download, resume and perform other actions.
 
@@ -63,10 +63,10 @@ Here's an example:
 ```javascript
 
 offlineManager.getDownloadedMediaConfig(GREAT_STORED_ENTRY_ID).then(data=>{
-  kalturaPlayer.setMedia(data);
+  vidiunPlayer.setMedia(data);
 });
 ```
-The initialization of the Kaltura Player can be found [here](https://github.com/kaltura/kaltura-player-js/blob/master/docs/configuration.md), but the creation of the Kaltura player is the same for offline and online purposes.
+The initialization of the Vidiun Player can be found [here](https://github.com/vidiun/vidiun-player-js/blob/master/docs/configuration.md), but the creation of the Vidiun player is the same for offline and online purposes.
 
 ## Writing a Player Plugin
 

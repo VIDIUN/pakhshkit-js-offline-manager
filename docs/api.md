@@ -42,7 +42,7 @@ The Download Manager fires progress events (for each download). The progress eve
 
 Here's an example of how to listen to the progress event:
 ```javascript
-let offlineManager = new KalturaPlayer.offlineManager(playerConfig);
+let offlineManager = new VidiunPlayer.offlineManager(playerConfig);
 offlineManager.addEventListener("progress", event => {
   let progressData = event.payload.detail;
 	console.info("entryId", progressData.entryId);
